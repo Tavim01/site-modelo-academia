@@ -166,7 +166,12 @@ details p{color:var(--mut);padding-bottom:20px}
   .imc{grid-template-columns:1fr}
   .sched li{grid-template-columns:70px 1fr}.sched .tag{grid-column:2}
 }
+/* movimento reduzido: remove só o movimento forte, mantém fades e hovers suaves */
 @media (prefers-reduced-motion:reduce){
-  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
-  .reveal{opacity:1;transform:none}
+  html{scroll-behavior:auto}
+  .marquee__t{animation:none;flex-wrap:wrap;width:auto;justify-content:center;gap:10px 44px;padding-inline:20px}
+  .marquee__t span:nth-child(n+7){display:none}
+  .fab{animation:none}
+  .reveal{transform:none}
+  .card:hover,.btn:hover{transform:none}
 }
