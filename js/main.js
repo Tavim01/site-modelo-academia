@@ -1,8 +1,8 @@
 // ===== Configuração por cliente: edite só este bloco =====
 const GYM = {
   nome: 'Pulse',
-  whatsapp: '5500900000000',          // DDI+DDD+número, só dígitos
-  telefone: '(00) 90000-0000',
+  whatsapp: '5513997701628',          // DDI+DDD+número, só dígitos
+  telefone: '(13) 99770-1628',
   endereco: 'Rua Exemplo, 123 — Centro',
   instagram: '@pulseacademia',
 };
